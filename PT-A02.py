@@ -3,6 +3,8 @@ os.system("clear")
 
 n1 = int(input('Digite um numero: '))
 n2 = int(input('Digite um numero: '))
+
+for c in range(n1, n2):
     cont = 0
     for j in range(1, n2):
         if c % j == 0:
